@@ -340,9 +340,14 @@ span + .entry-title {
 		@include font-size(18,no);
 		@include clearfix;
 	}
-	a > span {
+	.post-draft {
+	  color: #DDD;
+	  font-style: italic;
+	}
+	a > span, .post-draft span {
 		float: right;
 	}
+
 	.entry-date {
 		@include font-size(14,no);
 		text-transform: uppercase;

@@ -8,8 +8,6 @@ index:
 
 <ul class="post-list">
 {% for post in site.categories.uiux %}
-  {% if post.tags contains "frontend" %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-  {% endif %}
+  {% include index-list-item.html %}
 {% endfor %}
 </ul>

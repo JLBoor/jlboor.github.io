@@ -1,0 +1,8 @@
+<li><article>
+{% if post.draft %}
+    <span class="post-draft">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></span>
+{% else %}
+    <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a>
+{% endif %}
+
+</article></li>

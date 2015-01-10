@@ -6,6 +6,7 @@ categories: frontend
 tags: [web components, polymer, x-tags, polyfill, paper elements, front-end]
 comments: false
 share: true
+draft: true
 ---
 
 Coming soon...
