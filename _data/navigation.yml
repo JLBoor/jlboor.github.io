@@ -1,16 +1,14 @@
 # Site navigation links
 
 - title: About
-  url: /about/
+  url: /sections/about.html
 
-- title: Articles
-  url: /articles/
+- title: Angular JS
+  url: /sections/angularjs.html
 
-- title: Blog
-  url: /blog/
+- title: Front-End
+  url: /sections/frontend.html
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: UI/UX
+  url: /sections/uiux.html
 
-- title: Made Mistakes
-  url: http://mademistakes.com

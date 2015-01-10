@@ -18,20 +18,28 @@
 
 {% if site.search %}{% include site-search.html %}{% endif %}
 
-{% if page.image.feature %}<header class="masthead">
-	{% if site.logo != null %}
-		<div class="wrap">
-			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+{% if page.index %}<header class="masthead">
+		<div class="wrap entry-header">
+			{% if page.index.image != null %}
+			<img src="{{ site.url }}/images/{{ page.index.image }}" style="height: 175px;" alt="{{ page.title }} logo" class="animated bounceInDown" />
+			{% endif %}
+			<h1 class="entry-title animated fadeIn">{{ page.title }}</h1>
 		</div>
-	{% endif %}
+
 </header><!-- /.masthead -->
-{% else %}<header class="masthead">
+{% elsif page.layout == "page" %}<header class="masthead">
 	<div class="wrap">
-        {% if site.logo != null %}
-    		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
-        {% endif %}
         <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
 		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
+
+		<div class="wrap animated bounceIn" style="margin-bottom: 25px;">
+			{% if author.avatar contains 'http' %}
+			<img src="{{ author.avatar }}" class="bio-photo" style="margin: auto;" alt="{{ author.name }} bio photo"></a>
+			{% else %}
+			<img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" style="margin: auto;" alt="{{ author.name }} bio photo"></a>
+			{% endif %}
+		</div>
+
 	</div>
 </header><!-- /.masthead -->{% endif %}
 

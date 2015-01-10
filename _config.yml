@@ -5,7 +5,6 @@ locale: en_US
 description: My Cool description.
 logo: site-logo.png
 search: true
-comments: true
 url: 
 
 
@@ -34,9 +33,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Jean-Louis Bourgeois
-  avatar: bio-photo.jpg
+  avatar: me.png
   email: you@email.com
-  disqus-shortname:
+  disqus-shortname: jlboor
   twitter: JLBoor
   facebook: #username
   github: jlboor
