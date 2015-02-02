@@ -275,11 +275,6 @@ span + .entry-title {
 		margin-bottom: 10px;
 		@include rounded(150px);
 		@include clearfix;
-
-		&:hover {
-		  -webkit-filter: hue-rotate(120deg);
-		  -webkit-transition: -webkit-filter 1s linear;
-		}
 	}
 }
 
