@@ -32,7 +32,7 @@ body {
 }
 
 p {
-	@include font-size(18,yes,28);
+	@include font-size(20,yes,30);
 }
 
 li {
@@ -49,6 +49,7 @@ h1 {
 }
 h2 {
 	@include font-size(32);
+  	margin-top: 40px;
 }
 h3 {
 	@include font-size(28);

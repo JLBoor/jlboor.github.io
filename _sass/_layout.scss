@@ -206,6 +206,7 @@ body {
 }
 .entry-header {
 	@include fill-parent;
+  	margin-bottom: 4em;
 }
 .entry-tags {
 	display: block;
@@ -232,10 +233,10 @@ span + .entry-title {
 		text-decoration: underline;
 	}
 	@include media($medium) {
-		@include font-size(52,yes,54);
+		@include font-size(55,yes,55);
 	}
 	@include media($large) {
-		@include font-size(68,yes,72);
+		@include font-size(55,yes,55);
 	}
 }
 .entry-wrapper {
