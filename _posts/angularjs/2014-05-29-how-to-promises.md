@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to use promises in AngularJS"
-excerpt: "A ton of text to test readability."
+excerpt: "In this post we are show how to use promises in AngularJS 1.x as well as the common pitfalls."
 categories: angularjs
 tags: [angularjs, promises, javascript, $q]
 
