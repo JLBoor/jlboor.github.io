@@ -52,9 +52,9 @@ nor
 but instead
 {% highlight js %} Hello undefined ! {% endhighlight %}
 
-The reason is that in Javascript, not only all the declarations are moved to the top, but the assignments are left in place. That's why the result is so bizarre.
+The reason is that in Javascript, not only all the declarations are moved to the of the current scope, but the assignments are left in place. That's why the result is so bizarre.
 
-Here,  what's really happening at runtime:
+What really happens at runtime is
 
 {% highlight js linenos=table  %}
 (function() {
