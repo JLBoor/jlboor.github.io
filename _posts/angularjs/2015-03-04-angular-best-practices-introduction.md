@@ -91,7 +91,7 @@ And we can keep going for hours...
 With AngularJS being a Javascript framework, we obviously have to understand how the language works, but not only, we also have to understand what's AngularJS trying to achieve and how.
 
 
-## The philosophy AngularJS
+## The philosophy of AngularJS
 
 Before we start talking about best practices, let's step back a little and review what the essence of AngularJS is.
 Below a selection of comments found on [https://docs.angularjs.org](https://docs.angularjs.org/guide/introduction).
