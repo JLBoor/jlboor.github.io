@@ -52,7 +52,7 @@ nor
 but instead
 {% highlight js %} Hello undefined ! {% endhighlight %}
 
-The reason is that in Javascript, not only all the declarations are moved to the of the current scope, but the assignments are left in place. That's why the result is so bizarre.
+The reason is that in Javascript, not only all the declarations are moved to the of the current scope, but the assignments are left in place. That's why the result seems so bizarre.
 
 What really happens at runtime is
 
@@ -88,7 +88,8 @@ console.log(true + true) // 2
 
 And we can keep going for hours...
 
-With AngularJS being a Javascript framework, we obviously have to understand how the language works, but not only, we also have to understand what's AngularJS trying to achieve and how.
+With AngularJS being a Javascript framework, we obviously have to understand how the language works, but not only.
+We also have to understand what AngularJS is trying to achieve and how.
 
 
 ## The philosophy of AngularJS
@@ -101,12 +102,19 @@ Below a selection of comments found on [https://docs.angularjs.org](https://docs
 - Testing difficulty is dramatically affected by **the way the code is structured**
 - It's always good to **make common tasks trivial** and difficult tasks possible
 
-Buzzworthy, 2 items out of 4 are talking about testability... And that's going to be my first tip, no one shall approve a pull request that does not contain unit tests.
+Buzzworthy, 2 items out of 4 are talking about testability...
+And that's going to be my first tip
+
+> No one shall approve a pull request that does not contain unit tests.
 
 ## What's next?
 
-Well, first the good news! For the Javascript part, you can write safer code by using tools existing tools, and they should probably be already part of your build.
-The bad news though, there's no such thing for AngularJS. That's why having standards & best practices is so important.
+Well, first the good news! For the Javascript part, you can write safer code by using existing tools\*, and they should probably already be part of your build anyway.
+The bad news though, is that there's no such thing for AngularJS. That's why having standards & best practices is so important. *To be continued...*
 
 
 **Next:** [{{ page.next.title }}]({{ site.url }}{{ page.next.url }})
+
+<p class="footnotes" markdown="1">
+\* tools such as: [JSLint](http://jslint.com/), [JSHint](http://jshint.com/), [JSCS](http://jscs.info/), etc...
+</p>
