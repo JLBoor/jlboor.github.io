@@ -20,7 +20,7 @@ The purpose of this introduction is to explain why defining the right standards 
 - Lack of module system
 - Weak-typing
 - Finicky equality/automatic conversion
-- The keyword this is ambiguous, confusing and misleading
+- The keyword "this" is ambiguous, confusing and misleading
 - Semi colon insertion
 - Implied global declaration
 - And so on...
@@ -52,7 +52,7 @@ nor
 but instead
 {% highlight js %} Hello undefined ! {% endhighlight %}
 
-The reason is that in Javascript, not only all the declarations are moved to the of the current scope, but the assignments are left in place. That's why the result seems so bizarre.
+The reason is that in Javascript, not only are all the declarations moved to the top of current scope, but the assignments are left in place. That's why the result seems so bizarre.
 
 What really happens at runtime is
 
@@ -95,7 +95,7 @@ We also have to understand what AngularJS is trying to achieve and how.
 ## The philosophy of AngularJS
 
 Before we start talking about best practices, let's step back a little and review what the essence of AngularJS is.
-Below a selection of comments found on [https://docs.angularjs.org](https://docs.angularjs.org/guide/introduction).
+Below is a selection of comments found on [https://docs.angularjs.org](https://docs.angularjs.org/guide/introduction).
 
 - It's a very good idea to decouple DOM manipulation from app logic
 - It's a really, **really** good idea to regard app testing as equal in importance to app writing
