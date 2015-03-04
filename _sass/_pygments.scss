@@ -1,3 +1,7 @@
+.highlighttable {
+	.linenos { padding: 0; vertical-align: top; }
+}
+
 .highlight {
 	background-color: #efefef;
 	font-family: $code-font;
@@ -7,7 +11,7 @@
 	pre {
 		position: relative;
 		margin: 0;
-		padding: 1em;
+		padding: 0em;
 	}
 	.lineno { padding-right: 24px; color: lighten(#333332,50);}
 	.hll { background-color: #ffffcc }
@@ -29,7 +33,7 @@
 	.gs { font-weight: bold } /* Generic.Strong */
 	.gu { color: #aaaaaa } /* Generic.Subheading */
 	.gt { color: #aa0000 } /* Generic.Traceback */
-	.kc { color: #000000; font-weight: bold } /* Keyword.Constant */
+	.kc { color: purple; font-weight: bold } /* Keyword.Constant */
 	.kd { color: #000000; font-weight: bold } /* Keyword.Declaration */
 	.kn { color: #000000; font-weight: bold } /* Keyword.Namespace */
 	.kp { color: #000000; font-weight: bold } /* Keyword.Pseudo */
