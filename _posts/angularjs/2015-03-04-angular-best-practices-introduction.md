@@ -109,7 +109,7 @@ And that's going to be my first tip
 
 ## What's next?
 
-Well, first the good news! For the Javascript part, you can write safer code by using existing tools\*, and they should probably already be part of your build anyway.
+Well, first the good news! For the Javascript part, you can write safer code by using existing tools*\**, and they should probably already be part of your build anyway.
 The bad news though, is that there's no such thing for AngularJS. That's why having standards & best practices is so important. *To be continued...*
 
 
