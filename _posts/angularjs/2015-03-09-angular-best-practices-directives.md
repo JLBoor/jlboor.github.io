@@ -11,3 +11,15 @@ draft: true
 ---
 
 Coming soon...
+
+Are markers on a DOM element (Extend HTML)
+
+Are reusable HTML components.
+
+Attach specified behavior to that DOM element
+
+Transform the DOM element and its children
+
+
+
+**Next:** [{{ page.next.title }}]({{ site.url }}{{ page.next.url }})

@@ -3,7 +3,7 @@ layout: post
 title: "AngularJS best practices - Introduction"
 excerpt: "This post is an introduction to a bunch of best practices in AngularJS 1.x"
 categories: angularjs
-tags: [angularjs, best practices, javascript, introduction, 1.x]
+tags: [angularjs, best practices, JavaScript, introduction, 1.x]
 
 comments: true
 share: true
@@ -13,7 +13,7 @@ This blog post is the first in a series about best practices in AngularJS.
 The purpose of this introduction is to explain why defining the right standards for your project is so crucial.
 
 
-## First, let's face it... Javascript sucks!
+## First, let's face it... JavaScript sucks!
 
 ![Image showing the massive JS definition book, and just beside the tiny JS the good parts](/images/angularjs/javascript-sucks.jpg "Definition vs. The Good Parts")
 
@@ -52,7 +52,7 @@ nor
 but instead
 {% highlight js %} Hello undefined ! {% endhighlight %}
 
-The reason is that in Javascript, not only are all the declarations moved to the top of current scope, but the assignments are left in place. That's why the result seems so bizarre.
+The reason is that in JavaScript, not only are all the declarations moved to the top of current scope, but the assignments are left in place. That's why the result seems so bizarre.
 
 What really happens at runtime is
 
@@ -87,8 +87,10 @@ console.log(true + true) // 2
 {% endhighlight %}
 
 And we can keep going for hours...
+*On a side note though, it's good to know that the language is evolving and that some of these problems will disappear in the next releases.
+For instance, JavaScript 1.7 will introduce the **let** statement to address some of the scoping issues.*
 
-With AngularJS being a Javascript framework, we obviously have to understand how the language works, but not only.
+With AngularJS being a JavaScript framework, we obviously have to understand how the language works, but not only.
 We also have to understand what AngularJS is trying to achieve and how.
 
 
@@ -107,9 +109,16 @@ And that's going to be my first tip
 
 > No one shall approve a pull request that does not contain unit tests.
 
+Interestingly, you'll not only fundamentally improve your code quality but you'll also:
+
+- have a clean and structured code
+- facilitate future changes
+- have documentation
+
+
 ## What's next?
 
-Well, first the good news! For the Javascript part, you can write safer code by using existing tools*\**, and they should probably already be part of your build anyway.
+Well, first the good news! For the JavaScript part, you can write safer code by using existing tools*\**, and they should probably already be part of your build anyway.
 The bad news though, is that there's no such thing for AngularJS. That's why having standards & best practices is so important. *To be continued...*
 
 

@@ -200,7 +200,8 @@ blockquote {
   	color: $accent-color-500;
   	background: $accent-color-50;
   p {
-	font-weight: 300;
+	font-weight: 100;
+	font-style: italic;
 	@include font-size(26);
   }
 }

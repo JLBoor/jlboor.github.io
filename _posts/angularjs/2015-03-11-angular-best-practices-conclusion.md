@@ -11,3 +11,16 @@ draft: true
 ---
 
 Coming soon...
+
+
+Keep your files and modules small and specific
+
+Create services and directives
+
+Don't reinvent the wheel (ng-class, ng-if, etc...)
+
+Don't trust what you read online
+
+Write unit tests
+
+Keep in mind that it's a single-page-app

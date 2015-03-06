@@ -11,3 +11,17 @@ draft: true
 ---
 
 Coming soon...
+
+AngularJS: Services
+
+Are lazily instantiated
+
+Are singletons
+
+Contain the business logic (for the front-end)
+
+Can retrieve data from the back-end
+
+
+
+**Next:** [{{ page.next.title }}]({{ site.url }}{{ page.next.url }})
