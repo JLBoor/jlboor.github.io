@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Web components"
+excerpt: ""
+categories: frontend
+tags: []
+
+comments: true
+share: true
+---
+
+
 # Marketing title
 
 To help companies build great User Experience (UX) and consistent User Interfaces (UI), we traditonnaly provide design branding, style guides and high fidelity wireframes. But that does not scale very well and rapidly hits certain limitations. 
