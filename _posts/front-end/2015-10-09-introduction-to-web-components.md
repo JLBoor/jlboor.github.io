@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web components"
+title: "Changing the web with Web Components"
 excerpt: ""
 categories: frontend
 tags: []
@@ -9,8 +9,6 @@ comments: true
 share: true
 ---
 
-
-# Changing the web with Web Components
 
 *This article is an introduction of a series of posts related to the Web Components and Polymer. In the following posts, we'll dive into Polymer specifically.*
 
