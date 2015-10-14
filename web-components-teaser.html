@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple markers</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .gist {
+        display: table-cell;
+      }
+      #map {
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+          var myLatLng = {lat: 43.6485057, lng: -79.3871743};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: myLatLng
+          });
+              
+          var infowindow = new google.maps.InfoWindow({
+            content: '200 Adelaide West <br/> Toronto, ON M5H 1W7'
+          });      
+              
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Intellware!'
+          });
+                   
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });
+              
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });
+      
+          map.setZoom(15);
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_qZz11ekvsrf-qm5sMBCie2hB0p5hVIY&signed_in=true&callback=initMap"></script>
+    <div style="display: table;">
+    <div class="gist">
+      <h2>Yesterday</h2>
+    <script src="https://gist.github.com/JLBoor/4812546761bcd8195ac4.js"></script>
+    </div>
+    <div class="gist">
+      <h2>Web Components</h2>
+    <script src="https://gist.github.com/JLBoor/51cad348d7d83ad4b159.js"></script>
+    </div>
+      </div>
+  </body>
+</html>
